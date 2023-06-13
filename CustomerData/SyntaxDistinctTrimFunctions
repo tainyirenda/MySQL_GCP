@@ -1,0 +1,6 @@
+SELECT
+DISTINCT customer_id
+FROM
+`upbeat-element-342722.customer_data.customer_address`
+WHERE
+TRIM(state) ='OH' 
