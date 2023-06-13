@@ -1,0 +1,8 @@
+SELECT
+*
+FROM
+`upbeat-element-342722.Movies.movie_data`
+WHERE
+Genre = 'Comedy'
+AND Revenue > 300000000
+ORDER BY Release_Date DESC
